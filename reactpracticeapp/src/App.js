@@ -10,11 +10,11 @@ function TestFunction(){
 }
 function FirstFunction(){
   return(
-    <p>inside FirstFunction</p>
+    <p>Inside FirstFunction</p>
   );
 }
 function SecondFunction(){
-  return(<p> inside SecondFunction</p>);
+  return(<p> Inside SecondFunction</p>);
 }
 function App() {
   return (
