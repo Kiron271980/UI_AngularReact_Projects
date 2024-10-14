@@ -1,6 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+function TestFunction(){
+  return(
+    <p>
+      Inside TestFunction.
+    </p>
+  );
+}
+function FirstFunction(){
+  return(
+    <p>inside FirstFunction</p>
+  );
+}
+function SecondFunction(){
+  return(<p> inside SecondFunction</p>);
+}
 function App() {
   return (
     <div className="App">
@@ -24,6 +39,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+      <TestFunction/> 
+      <FirstFunction/>
+      <SecondFunction/>
+      </body>
     </div>
   );
 }
