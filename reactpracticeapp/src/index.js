@@ -7,6 +7,16 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <head>
+    <title>
+      React programming
+    </title> </head>
+    <body>
+    <div>
+      inside index.js file.
+      Modified index.js file to test.
+
+    </div> </body>
     <App />
   </React.StrictMode>
 );
