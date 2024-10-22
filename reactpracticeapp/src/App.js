@@ -5,6 +5,9 @@ function TestFunction(){
   return(
     <p>
       Inside TestFunction.
+      TestFunction for App.js file.
+      Defining TestFunction to check the output.
+      Trying to call TestFunction in App Module.
     </p>
   );
 }
@@ -36,7 +39,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React and creating sample React programs.
         </a>
       </header>
       <body>
